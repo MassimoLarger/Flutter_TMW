@@ -5,25 +5,28 @@ void main() {
 }
 
 class MiPrimerWidget extends StatelessWidget {
-  const MiPrimerWidget({super.key});
+  const MiPrimerWidget({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text('Mi Primer Widget'),
-      ),
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            const SizedBox(height: 20),
-            ElevatedButton(
-              onPressed: () {
-                print('¡Hola Mundo!');
-              },
-              child: Text('Presiona el boton para saludar'),
-            ),
-          ],
+    return MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(
+          title: const Text('Mi Primer Widget'),
+        ),
+        body: Center(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              const SizedBox(height: 20),
+              ElevatedButton(
+                onPressed: () {
+                  print('¡Hola Mundo!');
+                },
+                child: const Text('Presiona el botón para saludar'),
+              ),
+            ],
+          ),
         ),
       ),
     );
