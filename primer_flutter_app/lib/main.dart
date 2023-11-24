@@ -5,6 +5,7 @@ void main() {
 }
 
 class MiPrimerWidget extends StatelessWidget {
+  const MiPrimerWidget({super.key});
   @override
   Widget build(BuildContext context) {
     return Scaffold(
