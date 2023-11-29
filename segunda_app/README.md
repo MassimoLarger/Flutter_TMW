@@ -1,16 +1,16 @@
-# segunda_app
+# Mi Segunda App
 
-A new Flutter project.
+Esta es una aplicación simple construida con Flutter. Muestra tres Cards en formato vertical,
+cada uno con una imagen y una descripción. Al final de la pantalla, hay un botón elevado que
+redirige a la página de Ulagos.
 
-## Getting Started
+## Ejecutar la Aplicación
 
-This project is a starting point for a Flutter application.
+Para ejecutar la aplicación, sigue estos pasos:
 
-A few resources to get you started if this is your first Flutter project:
+1. Asegúrate de tener Flutter y Dart instalados en tu máquina.
+2. Clona este repositorio.
+3. Abre una terminal en el directorio del proyecto.
+4. Ejecuta `flutter run` para iniciar la aplicación en tu dispositivo/emulador.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+¡Listo! Ahora deberías ver la aplicación en funcionamiento.

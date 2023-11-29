@@ -5,7 +5,7 @@ void main() {
 }
 
 class MiPrimerWidget extends StatelessWidget {
-  const MiPrimerWidget({Key? key}) : super(key: key);
+  const MiPrimerWidget({super.key});
 
   @override
   Widget build(BuildContext context) {
