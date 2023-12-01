@@ -49,7 +49,6 @@ class MyApp extends StatelessWidget {
               // Botón Elevado
               ElevatedButton(
                 onPressed: () {
-                  _launchURL(); 
                 },
                 child: const Text('Ir a Ulagos'),
               ),
@@ -58,14 +57,5 @@ class MyApp extends StatelessWidget {
         ),
       ),
     );
-  }
-  // Función para lanzar la URL
-  _launchURL() async {
-    const url = 'https://www.ulagos.cl';
-    if (await canLaunch(url)) {
-      await launch(url);
-    } else {
-      throw 'No se puede lanzar $url';
-    }
   }
 }
